@@ -1,0 +1,17 @@
+services:
+  # Nginx
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: ''
+    depends_on:
+      - ''
+    ports:
+      - ''
+    restart: always
+    volumes:
+      - read_only: true
+        source: ''
+        target: ''
+        type: volume
